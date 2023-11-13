@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #87dfff;
+  color: rgb(0, 0, 0);
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: rgb(10, 10, 10);
+  
+ 
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #ddddddf9;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #666666fb;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: hsl(187, 83%, 79%);
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+h2{
+  background-image: url("pngtree-abstract-acrylic-gold-ink-background-blue-and-purple-marbling-artwork-texture-image_449096.jpg");
+  padding: 30px;
+}
+h1{
+  background-image: url("pngtree-abstract-acrylic-gold-ink-background-blue-and-purple-marbling-artwork-texture-image_449096.jpg");
+  padding: 300px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <title>Project me</title>
+    <h1 style="font-size:5vw;">PROJECT ME</h1>
+  <p>A website created by Stefania Torchia.</p>
+</div>
+
+<div class="navbar">
+  <a href="https://www.instagram.com/">Instagram</a>
+  <a href="https://www.facebook.com/">Facebook</a>
+  <a href="https://twitter.com/?lang=en">Twitter</a>
+  <a href="" class="right">Contact:Storchia22@gmail.com</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <img src="download.png" alt="me" width="60" height="60"><p>Hey it's Stefania </p>
+    <p>I am currently a student from Vanier College studying in Multimedia Integration. 
+        I enjoy designing websites and 3D modeling! Who i am ? Well Im Stefania. Best way to describe myself 
+        in one word i would say creative. Since i was young i loved the arts. I explored doing art 
+        i loved drawing after time i began to to be good.After experimenting with drawing, I began painting. 
+        I just enjoyed it, so I began painting animals and landscapes.
+        Following that, I began creating digital drawing of my favorite celebrities.</p>
+    
+  </div>
+  <div class="main">
+    <h2> My Gallery</h2>
+    <h5></h5>
+    <img src="IMG_0321.PNG" alt="painting" width="45%">
+    <img src="IMG_0311.PNG" alt="painting" width="45%">
+    <img src="IMG_0310.PNG" alt="painting" width="40%">
+    <img src="IMG_0323.PNG" alt="painting" width="40%">
+
+    <p>Why Art?</p>
+     <p1>All of us are passionate about something...Well mine is arts because it allows me to 
+        express my creativity, emotions, and perspectives in unique and meaningful ways. 
+        Arts can serve as a powerful form of communication, enabling individuals to 
+        connect with others on a deep level. It also provides an avenue for self-discovery, personal growth, and
+        exploration of different cultures and ideas. The arts have the ability to inspire,  provoke thought, and evoke 
+        strong emotions, making them a source of immense fascination and passion for many.</p1>
+   
+  </div>
+</div>
+
+<div class="footer">
+  <footer>© 2023 Designed &amp; Developed by Stefania Torchia</footer>
+</div>
+
+</body>
+</html>
+
